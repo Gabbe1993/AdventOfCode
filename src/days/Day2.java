@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Day2 implements Day {
 
     private int total;
-    private int s[] = new int[2];
+    private int[] s = new int[2];
 
     @Override
     public void partOne(String input) {

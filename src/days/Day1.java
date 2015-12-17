@@ -41,7 +41,7 @@ public class Day1 implements Day {
 
     @Override
     public void start(int day) {
-        String string = ReadFromFile.getInputString(1);
+        String string = ReadFromFile.getInputString(day);
         partOne(string);
         partTwo(string);
     }

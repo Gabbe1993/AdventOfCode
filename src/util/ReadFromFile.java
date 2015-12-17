@@ -15,7 +15,6 @@ public class ReadFromFile {
         try {
             Scanner scanner = new Scanner(new File(PATH + day + ".txt"));
             while (scanner.hasNext()) {
-                System.out.println(scanner.next());
                 builder.append(scanner.next());
             }
         } catch (FileNotFoundException e) {

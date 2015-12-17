@@ -6,7 +6,7 @@ package days;
 public class Starter {
 
     public static void main(String[] args) {
-        Day day = new Day2();
-        day.start(2);
+        Day day = new Day3();
+        day.start(3);
     }
 }
